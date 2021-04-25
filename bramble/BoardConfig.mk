@@ -26,4 +26,4 @@ include device/google/redbull/BoardConfig-common.mk
 
 -include vendor/google_devices/$(TARGET_BOOTLOADER_BOARD_NAME)/proprietary/BoardConfigVendor.mk
 
--include device/google/bramble/BoardConfigLineage.mk
+-include device/google/bramble/BoardConfigBliss.mk

@@ -1,5 +1,5 @@
 #
-# Copyright 2018 The Android Open Source Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,12 +14,5 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_bramble.mk \
-    $(LOCAL_DIR)/bliss_bramble.mk \
-
-COMMON_LUNCH_CHOICES := \
-    aosp_bramble-userdebug \
-    bliss_bramble-userdebug \
-    bliss_bramble-user \
-    bliss_bramble-eng \
+# Boardconfig for lineage_bramble
+-include device/google/redbull/BoardConfigBliss.mk
