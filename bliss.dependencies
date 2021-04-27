@@ -1,6 +1,18 @@
 [
   {
-    "repository": "android_device_google_redbull",
+    "remote":      "github"
+    "repository":  "BlissRoms-Devices/device_google_redbull",
     "target_path": "device/google/redbull"
+    "branch":      "r"
+  },{
+    "remote":      "github"
+    "repository":  "LineageOS/android_kernel_google_redbull",
+    "target_path": "kernel/google/redbull"
+    "branch":      "lineage-18.1"
+  },{
+    "remote":      "github"
+    "repository":  "TheMuppets/proprietary_vendor_google",
+    "target_path": "vendor/google"
+    "branch":      "lineage-18.1"
   }
 ]
